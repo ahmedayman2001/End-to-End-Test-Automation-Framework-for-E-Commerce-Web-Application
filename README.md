@@ -44,7 +44,7 @@ The project contains **20 automated test cases** based on the site's [official t
 
 [![Project screenshot 1](https://i.postimg.cc/13Js5xXN/d1.png)](https://postimg.cc/yDgwvbFV)
 
-![Project screenshot 2](images/d2.png)
+[![Project screenshot 2](https://i.postimg.cc/mkR5HD6F/d2.png)](https://postimg.cc/CBP7yF0F)
 
 ---
 
