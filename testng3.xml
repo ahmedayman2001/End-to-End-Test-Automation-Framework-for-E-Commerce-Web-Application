@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Cart And Product Placement">
+
+    <test name="TC13-TC20 CartAndProductPlacement_Tests">
+
+
+        <classes>
+
+
+            <class name="Tests.CartAndProductPlacement_Tests">
+
+                <parameter name="TargetUrl" value="https://www.automationexercise.com/"/>
+                <parameter name="BrowserType" value="chrome"/>
+
+                <methods>
+
+                    <include name="TC13_VerifyProductQuantityInCart"> </include>
+                    <include name="TC14_PlaceOrderRegisterWhileCheckout"> </include>
+                    <include name="TC15_PlaceOrderRegisterBeforeCheckout"> </include>
+                    <include name="TC16_PlaceOrderLoginBeforeCheckout"> </include>
+                    <include name="TC17_RemoveProductsFromCart"> </include>
+                    <include name="TC18_ViewCategoryProducts"> </include>
+                    <include name="TC19_ViewAndCartBrandProducts"> </include>
+                    <include name="TC20_SearchProductsAndVerifyCartAfterLogin"> </include>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+        <!--      allure serve     -->
+
+        <!--        Remove-Item -Recurse -Force allure-results     -->

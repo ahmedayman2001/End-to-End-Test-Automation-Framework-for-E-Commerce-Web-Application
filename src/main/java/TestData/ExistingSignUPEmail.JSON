@@ -1,0 +1,8 @@
+
+{
+
+  "Name": "TestUser",
+  "EmailAddress" : "test12348@gmail.com",
+   "SignUPErrorMessage" : "Email Address already exist!"
+
+}

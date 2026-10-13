@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Products Navigation And Page Features">
+
+    <test name="TC7-TC12 : Products Navigation And Page Features_Tests	">
+
+
+        <classes>
+
+
+            <class name="Tests.ProductsNavigationAndPageFeatures_Tests">
+
+                <parameter name="TargetUrl" value="https://www.automationexercise.com/"/>
+                <parameter name="BrowserType" value="Chrome"/>
+
+                <methods>
+
+                    <include name="TC07_VerifyTesTCasesPage"> </include>
+                    <include name="TC08_VerifyAllProductsAndProductDetailPage"> </include>
+                    <include name="TC09_SearchProduct"> </include>
+                    <include name="TC10_VerifySubscriptionInHomePage"> </include>
+                    <include name="TC11_VerifySubscriptionInCartPage"> </include>
+                    <include name="TC12_AddProductsInCart"> </include>
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+        <!--      allure serve     -->
+
+        <!--        Remove-Item -Recurse -Force allure-results     -->
